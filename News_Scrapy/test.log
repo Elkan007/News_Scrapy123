@@ -1,0 +1,191 @@
+2015-12-15 21:48:42+0800 [scrapy] INFO: Scrapy 0.24.2 started (bot: News_Scrapy)
+2015-12-15 21:48:42+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-12-15 21:48:42+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'News_Scrapy.spiders', 'SPIDER_MODULES': ['News_Scrapy.spiders'], 'BOT_NAME': 'News_Scrapy', 'USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.54 Safari/536.5', 'LOG_FILE': 'test.log', 'DOWNLOAD_DELAY': 2}
+2015-12-15 21:48:42+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-12-15 21:48:43+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-12-15 21:48:43+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-12-15 21:48:43+0800 [scrapy] INFO: Enabled item pipelines: NewsScrapyPipeline
+2015-12-15 21:48:43+0800 [News_Scrapy] INFO: Spider opened
+2015-12-15 21:48:43+0800 [News_Scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-12-15 21:48:43+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-12-15 21:48:43+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-12-15 21:48:44+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com> (referer: None)
+2015-12-15 21:48:46+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/21/BATGFD3J0001121M.html> (referer: http://news.163.com)
+2015-12-15 21:48:46+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:48:46+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/21/BATGFD3J0001121M.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 21:08:20'],
+	 'news_source': [u'\u592e\u89c6'],
+	 'news_title': [u'\u4e60\u8fd1\u5e73\u4f1a\u89c1\u4fc4\u7f57\u65af\u603b\u7406\u6885\u5fb7\u97e6\u6770\u592b'],
+	 'news_type': []}
+2015-12-15 21:48:48+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/14/BASR5UOF00014AED.html> (referer: http://news.163.com)
+2015-12-15 21:48:48+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:48:48+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/14/BASR5UOF00014AED.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 14:58:50'],
+	 'news_source': [u'\u6f8e\u6e43\u65b0\u95fb\u7f51'],
+	 'news_title': [u'\u519b\u62a5:\u4e2d\u56fd\u519b\u961f\u6539\u9769\u5c55\u5f00 \u5e72\u90e8\u8c03\u6574\u6682\u505c'],
+	 'news_type': []}
+2015-12-15 21:48:50+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/13/BASM2I9A00011229.html> (referer: http://news.163.com)
+2015-12-15 21:48:50+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:48:50+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/13/BASM2I9A00011229.html>
+	{'news_content': [u'\n                ',
+	                  u'\n\t\t',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 13:26:57'],
+	 'news_source': [u'\u89c2\u5bdf\u8005\u7f51'],
+	 'news_title': [u'\u592e\u89c6\u771f\u4eba\u79c0\u7537\u5609\u5bbe\u5634\u5bf9\u5634\u5582\u5305\u5b50 \u7f51\u53cb:\u597d\u6c61(\u56fe)'],
+	 'news_type': []}
+2015-12-15 21:48:52+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/17/BAT2L8RB00014JB6.html> (referer: http://news.163.com)
+2015-12-15 21:48:53+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:48:53+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/17/BAT2L8RB00014JB6.html>
+	{'news_content': [u'\n                ',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n\r\n',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 17:02:00'],
+	 'news_source': [u'\u4e2d\u56fd\u65b0\u95fb\u7f51'],
+	 'news_title': [u'\u53d1\u6539\u59d4:\u672c\u8f6e\u6cb9\u4ef7\u6682\u4e0d\u8c03\u6574 \u5c06\u5b8c\u5584\u6210\u54c1\u6cb9\u4ef7\u683c\u673a\u5236'],
+	 'news_type': []}
+2015-12-15 21:48:56+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/17/BAT4QJ0M00014SEH.html> (referer: http://news.163.com)
+2015-12-15 21:48:56+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:48:56+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/17/BAT4QJ0M00014SEH.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 17:40:13'],
+	 'news_source': [u'\u65b0\u4eac\u62a5\u5373\u65f6\u65b0\u95fb'],
+	 'news_title': [u'\u53d1\u6539\u59d4:\u56e0\u96fe\u973e\u4e25\u91cd \u56fd\u5185\u6cb9\u4ef7\u6682\u505c\u4e0b\u8c03'],
+	 'news_type': []}
+2015-12-15 21:48:57+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/06/BARVTBBP00014JB6.html> (referer: http://news.163.com)
+2015-12-15 21:48:57+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:48:57+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/06/BARVTBBP00014JB6.html>
+	{'news_content': [u'\n                ',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 06:55:00'],
+	 'news_source': [u'\u4eba\u6c11\u7f51'],
+	 'news_title': [u'\u4eba\u6c11\u65e5\u62a5:\u6709\u53bf\u9886\u5bfc\u4e89\u53d6\u5230"\u8d2b\u56f0\u53bf"\u540e\u5230\u5904\u70ab\u8000'],
+	 'news_type': []}
+2015-12-15 21:49:00+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/11/BASG6GJJ00014JB6.html> (referer: http://news.163.com)
+2015-12-15 21:49:00+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:00+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/11/BASG6GJJ00014JB6.html>
+	{'news_content': [u'\n                ',
+	                  u'\n      \n\n        \n',
+	                  u'\n\n',
+	                  u'\n\n',
+	                  u'\n\n',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 11:35:00'],
+	 'news_source': [u'\u4e2d\u56fd\u65b0\u95fb\u7f51'],
+	 'news_title': [u'\u6276\u8d2b\u529e\uff1a\u4e2d\u56fd\u6700\u4f4e\u8d2b\u56f0\u6807\u51c6\u7565\u9ad8\u4e8e\u4e16\u884c\u516c\u5e03\u6c34\u5e73'],
+	 'news_type': []}
+2015-12-15 21:49:02+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/15/BASUNIH600014JB6.html> (referer: http://news.163.com)
+2015-12-15 21:49:02+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:02+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/15/BASUNIH600014JB6.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 15:43:00'],
+	 'news_source': [u'\u4e2d\u56fd\u65b0\u95fb\u7f51'],
+	 'news_title': [u'\u4e2d\u56fd\u5c06\u62956000\u4ebf\u5f02\u5730\u642c\u8fc11000\u4e07\u4eba\u52a9\u8d2b\u56f0\u4eba\u53e3\u8131\u8d2b'],
+	 'news_type': []}
+2015-12-15 21:49:05+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/12/BASIN7HN00014JB6.html> (referer: http://news.163.com)
+2015-12-15 21:49:05+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:05+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/12/BASIN7HN00014JB6.html>
+	{'news_content': [u'\n                ',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\r\n',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 12:27:00'],
+	 'news_source': [u'\u4e2d\u56fd\u65b0\u95fb\u7f51'],
+	 'news_title': [u'\u5b98\u65b9\u56de\u5e94\u201c\u8d2b\u56f0\u4eba\u53e37000\u4e07\u4ecd\u82b1\u94b1\u5e2e\u52a9\u6cbf\u7ebf\u56fd\u5bb6\u201d'],
+	 'news_type': []}
+2015-12-15 21:49:08+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/16/BAT0Q53P0001124J.html> (referer: http://news.163.com)
+2015-12-15 21:49:08+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:08+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/16/BAT0Q53P0001124J.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 16:34:36'],
+	 'news_source': [u'\u5916\u4ea4\u90e8\u7f51\u7ad9'],
+	 'news_title': [u'BBC\u8bb0\u8005\u98de\u7ecf\u5357\u6d77\u906d\u4e2d\u56fd\u6d77\u519b\u9a71\u79bb \u5916\u4ea4\u90e8\u56de\u5e94'],
+	 'news_type': []}
+2015-12-15 21:49:10+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/08/BAS3IEJJ00014PRF.html> (referer: http://news.163.com)
+2015-12-15 21:49:10+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:10+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/08/BAS3IEJJ00014PRF.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 08:03:34'],
+	 'news_source': [u'\u4e2d\u592e\u4eba\u6c11\u653f\u5e9c\u7f51\u7ad9'],
+	 'news_title': [u'\u674e\u514b\u5f3a\u51fa\u5e2d\u4e0a\u5408\u5cf0\u4f1a\u6210\u5458\u56fd\u9996\u8111\u4f1a\u8bae\u6b22\u8fce\u5bb4\u4f1a'],
+	 'news_type': []}
+2015-12-15 21:49:12+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/21/BATHGMOI00014PRF.html> (referer: http://news.163.com)
+2015-12-15 21:49:12+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:12+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/21/BATHGMOI00014PRF.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 21:26:32'],
+	 'news_source': [u'\u4e2d\u56fd\u5e7f\u64ad\u7f51'],
+	 'news_title': [u'\u4e60\u8fd1\u5e73\u540c\u6cd5\u56fd\u603b\u7edf\u5965\u6717\u5fb7\u901a\u7535\u8bdd'],
+	 'news_type': []}
+2015-12-15 21:49:14+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/21/BATHI3NU00014PRF.html> (referer: http://news.163.com)
+2015-12-15 21:49:14+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:14+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/21/BATHI3NU00014PRF.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 21:27:18'],
+	 'news_source': [u'\u4e2d\u56fd\u5e7f\u64ad\u7f51'],
+	 'news_title': [u'\u4e60\u8fd1\u5e73\u5c06\u51fa\u5e2d\u4e16\u754c\u4e92\u8054\u7f51\u5927\u4f1a\u5f00\u5e55\u5f0f\u5e76\u53d1\u8868\u6f14\u8bb2'],
+	 'news_type': []}
+2015-12-15 21:49:15+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-12-15 21:49:15+0800 [News_Scrapy] INFO: Closing spider (shutdown)
+2015-12-15 21:49:16+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/08/BAS4NE2300011229.html> (referer: http://news.163.com)
+2015-12-15 21:49:16+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:16+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/08/BAS4NE2300011229.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 08:23:46'],
+	 'news_source': [u'\u4e2d\u56fd\u9752\u5e74\u7f51'],
+	 'news_title': [u'\u5e7f\u5dde\u73b0\u83ca\u82b1\u846b\u82a6\u5a03\u4e0d\u5fcd\u76f4\u89c6 \u7f51\u53cb\uff1a\u5413\u54ed\u4e86(\u56fe)'],
+	 'news_type': []}
+2015-12-15 21:49:18+0800 [News_Scrapy] DEBUG: Crawled (200) <GET http://news.163.com/15/1215/19/BATBR1A400011229.html> (referer: http://news.163.com)
+2015-12-15 21:49:18+0800 [News_Scrapy] DEBUG: Item wrote to MongoDB database python/test
+2015-12-15 21:49:18+0800 [News_Scrapy] DEBUG: Scraped from <200 http://news.163.com/15/1215/19/BATBR1A400011229.html>
+	{'news_content': [u'\n                ',
+	                  u'\n                                                                                ',
+	                  u'\n                            '],
+	 'news_date': [u'2015-12-15 19:47:19'],
+	 'news_source': [u'\u65b0\u95fb\u6668\u62a5'],
+	 'news_title': [u'6\u9752\u5e74\u66b4\u6253"\u8650\u732b\u4eba\u58eb"\u5e76\u903c\u5176\u5403\u7caa \u4e8b\u540e\u53d1\u73b0\u6253\u9519\u4eba'],
+	 'news_type': []}
+2015-12-15 21:49:20+0800 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
